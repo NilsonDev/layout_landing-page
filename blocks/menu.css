@@ -4,26 +4,28 @@
   right: 0;
   box-sizing: border-box;
   height: 100vh;
-
+  overflow: auto; /* to scroll the menu if needed */
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
 }
+
 .menu:target {
   opacity: 1;
   pointer-events: all;
 }
 
 .menu__content {
-  padding: 0px;
+  padding: 0;
 }
 
 .menu__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: sticky; /* to keep cross always visible */
+  top: 0;
+  z-index: 1;
+  background-color: #e5e5e5;
 }
 
 .menu__phone-number,
