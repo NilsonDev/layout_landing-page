@@ -7,9 +7,10 @@
   background-position: center center;
   height: 100vh;
 }
+
 .header__bottom {
   margin-top: 80px; /* ajuste conforme a altura real da top-bar */
-  padding: 0 20px 40px 20px;
+  padding: 0 20px 40px;
   flex: 1;
   display: flex;
   align-items: flex-end; /* Alinha o título na base */
@@ -36,7 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 20px 0 20px;
+  padding: 24px 20px 0;
 }
 
 .top-bar__logo img {

@@ -15,7 +15,7 @@
 }
 
 .browse img {
- 
+
   object-fit: contain;
 }
 
@@ -34,3 +34,4 @@
 .browse button:hover {
   background: #0078d7;
 }
+

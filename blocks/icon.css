@@ -11,12 +11,15 @@
 .icon--menu {
   background-image: url("../assets/icons/icon-Burger-menu.png");
 }
+
 .icon--menu:hover {
   background-image: url("../assets/icons/Icon-Burger-menu-hover.png");
 }
+
 .icon__close {
   background-image: url("../assets/icons/icon-close.png");
 }
+
 .top-bar__icons{
   display: flex;
 }
