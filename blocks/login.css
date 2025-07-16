@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 20;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login__button {
+  background-color: #111111;
+  color: #fff;
+  width: 280px;
+  height: 56px;
+  border-radius: 8px;
+}
+.login__input {
+  width: 260px;
+  padding: 10px;
+}

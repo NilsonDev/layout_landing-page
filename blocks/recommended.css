@@ -1,0 +1,40 @@
+
+        /* Media Queries para Responsividade */
+
+
+        .recommended__products {
+            display: grid; /* Define o contêiner como um grid */
+            grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de igual largura em uma única linha */
+            gap: 10px; /* Espaçamento de 10 pixels entre os itens */
+        }
+
+        .product {
+            padding: 20px; /* Espaçamento interno */
+            border: 1px solid #ccc; /* Borda para visualização */
+            border-radius: 8px; /* Bordas arredondadas */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        .recommended__products h2,
+        .recommended__products h3 {
+            margin: 8px 0; /* Margem para os títulos */
+        }
+
+        .recommended__products__image {
+            width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+        /* Media Queries para Responsividade */
+        @media (max-width: 768px) {
+            .recommended__products {
+                grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas médias */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .recommended__products {
+                grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
+            }
+        }
+   

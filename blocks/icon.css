@@ -1,0 +1,22 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon--phone {
+  background-image: url("../assets/icons/Icon-Phone-call.png");
+}
+
+.icon--menu {
+  background-image: url("../assets/icons/icon-Burger-menu.png");
+}
+.icon--menu:hover {
+  background-image: url("../assets/icons/Icon-Burger-menu-hover.png");
+}
+.icon__close {
+  background-image: url("../assets/icons/icon-close.png");
+}
+.top-bar__icons{
+  display: flex;
+}

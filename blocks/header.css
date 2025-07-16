@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/image/Image--bg_mobile.png);
+  padding-bottom: 24px;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.header__bottom {
+  margin-top: 80px; /* ajuste conforme a altura real da top-bar */
+  padding: 0 20px 40px 20px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end; /* Alinha o título na base */
+}
+
+.header__title {
+  font-family: Space Grotesk;
+  width: 280px;
+  height: 72px;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+  color: #292929;
+  letter-spacing: 0;
+  top: 456px;
+}
+
+.top-bar {
+  top: 0;
+  left: -20px;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px 0 20px;
+}
+
+.top-bar__logo img {
+  width: 125px;
+  height: 16px;
+}

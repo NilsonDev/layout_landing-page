@@ -1,0 +1,43 @@
+.menu {
+  top: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  height: 100vh;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+.menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.menu__content {
+  padding: 0px;
+}
+
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__phone-number,
+.menu__call-to-order {
+  display: block;
+  margin: 12px 0;
+  color: #292929;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.menu__call-to-order {
+  border-bottom: 1px solid #292929;
+  width: fit-content;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}

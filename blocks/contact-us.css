@@ -1,0 +1,80 @@
+.contacts-us__container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.contacts--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 250px;
+  min-width: 220px;
+  max-width: 350px;
+}
+
+.contacts-us__title {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.contacts-us__input,
+.contacts-us__textarea {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.contacts-us__button {
+  padding: 10px;
+  background-color: #292929;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.contacts-us__button:hover {
+  background: #0078d7;
+}
+
+.contacts__footer {
+  flex: 1 1 200px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+.contacts__footer h5 {
+  margin: 0;
+  font-size: 1rem;
+  color: #0078d7;
+}
+
+.contacts__footer h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: #292929;
+}
+
+.contacts__footer p {
+  margin: 0;
+  color: #444;
+  font-size: 0.95rem;
+}

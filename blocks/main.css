@@ -1,0 +1,16 @@
+.main {
+  padding: 32px 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main--title{
+  text-align: left;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 140%;
+
+}
