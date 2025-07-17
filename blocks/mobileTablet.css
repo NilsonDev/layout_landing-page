@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+  .about-us__title {
+    font-size: 1rem;
+  }
+  .about-us__text {
+    font-size: 12px;
+  }
+  .browse img{
+  width: 358px;
+  }
+  .browse h1 {
+    font-size: 1.2rem;
+  }
+  .contacts-us__title {
+    font-size: 1rem;
+  }
+  .contacts-us__input,
+  .contacts-us__textarea {
+    font-size: 0.8rem;
+  }
+  .contacts-us__button {
+    font-size: 0.8rem;
+  }
+  .browse button {
+    padding: 8px 16px;
+  }
+}
